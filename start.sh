@@ -10,7 +10,7 @@ sudo docker build -t  qitas/gitlab ./gitlab/
 sudo docker run -itd  \
     -p 443:443  -p 80:80  -p 222:22 \
     --restart always \
-    --volume /home/config:/etc/gitlab \
-    --volume /home/logs:/var/log/gitlab \
-    --volume /home/data:/var/opt/gitlab \
-    --name gitlab qitas/gitlab 
+    --volume /home/gitlab/config:/etc/gitlab \
+    --volume /home/gitlab/logs:/var/log/gitlab \
+    --volume /home/gitlab/data:/var/opt/gitlab \
+    --name qithub qitas/gitlab 
