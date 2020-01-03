@@ -1,0 +1,17 @@
+[core]
+	editor = \"C:\\Users\\qitas\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+[user]
+	name = qitas
+	email = qitas@qitas.cn
+[alias]
+	ci = commit -am 
+	cc = clone --depth=1
+    cr = clone --recursive
+    su = submodule update --init --recursive
+    st = status
+    ck = checkout
+    br = branch
+    pl = pull --rebase
+    ps = push
+	last = log -1
+
