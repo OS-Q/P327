@@ -1,6 +1,6 @@
 {
   "name": "P327",
-  "title": "RISC-V GAP",
+  "title": "OS-Q RISC-V GAP",
   "description": "GreenWaves GAP8 IoT application processor enables the cost-effective development, deployment and autonomous operation of intelligent sensing devices that capture, analyze, classify and act on the fusion of rich data sources such as images, sounds or vibrations.",
   "homepage": "https://greenwaves-technologies.com/en/gap8-product/",
   "license": "Apache-2.0",

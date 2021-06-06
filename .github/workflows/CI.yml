@@ -72,7 +72,7 @@ jobs:
           - "gapuino-pulp-os-i2c-eeprom"
           - "gapuino-pulp-os-kernel-dma"
         # package: ["pio","qio"]
-        os: [ubuntu-18.04, ubuntu-latest, windows-latest]
+        os: [ubuntu-latest, windows-latest, macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
